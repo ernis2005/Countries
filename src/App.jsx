@@ -18,7 +18,7 @@ const App = () => {
   };
   useEffect(() => {
     dispatch(restCountries(region));
-  }, [dispatch]);
+  }, [region]);
   return (
     <div className="App">
       <h2>{region}</h2>
