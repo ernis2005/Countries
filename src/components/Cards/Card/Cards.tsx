@@ -31,6 +31,7 @@ const Cards: FC<Person> = ({ data }) => {
               <div key={res.id} className="map">
                 <img src={res.flag} alt="" />
                 <p>{res.name}</p>
+                <p>Cтолица . {res.capital}</p>
               </div>
             ))}
         </div>
