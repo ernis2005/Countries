@@ -15,7 +15,7 @@ const Cards: FC<Person> = ({ data }) => {
             <div className="p-search__inner">
 
               <input className="p-search__input" onChange={(e) => setFilter(e.target.value)} type="text" placeholder="キーワードを入力"></input>
-              <label className="p-search__placeholder">Поск</label>
+              <label className="p-search__placeholder">Поиск...</label>
               <div className="p-search__icon"><i className="gg-search"></i></div>
             </div>
           </div>
